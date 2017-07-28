@@ -1,5 +1,7 @@
 # Xamarin.Android CircleImageView Binding
 
-**Source:** [CircleImageView](https://github.com/hdodenhof/CircleImageView) by hdodenhof.
+**Source and Instructions:** [CircleImageView](https://github.com/hdodenhof/CircleImageView) by hdodenhof.
 
-**Namespace**: Loop.Android.Bindings.CircleImageView
+**Namespace**: Loop.Android.Bindings
+
+**.axml Namespace:** de.hdodenhof.circleimageview
