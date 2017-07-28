@@ -1,0 +1,7 @@
+﻿<metadata>
+	<attr path="/api/package[@name='de.hdodenhof.circleimageview']" name="managedName">Loop.Android.Bindings</attr>
+	<remove-node path="/api/package[@name='de.hdodenhof.circleimageview']/class[@name='CircleImageView']/method[@name='getFillColor']"/>
+	<remove-node path="/api/package[@name='de.hdodenhof.circleimageview']/class[@name='CircleImageView']/method[@name='setFillColor']"/>
+	<remove-node path="/api/package[@name='de.hdodenhof.circleimageview']/class[@name='CircleImageView']/method[@name='setFillColorResource']"/>
+	<remove-node path="/api/package[@name='de.hdodenhof.circleimageview']/class[@name='CircleImageView']/method[@name='setBorderColorResource']"/>
+</metadata>
