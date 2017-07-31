@@ -10,7 +10,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AutofitTextView</RootNamespace>
-    <AssemblyName>Loop.Android.Bindings.AutofitTextView</AssemblyName>
+    <AssemblyName>LoopDroid.Bindings.AutofitTextView</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
@@ -46,11 +46,13 @@
     <TransformFile Include="Transforms\EnumFields.xml" />
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Additions\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <LibraryProjectZip Include="Jars\autofittextview-0.2.1.aar" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Additions\AboutAdditions.txt" />
+    <Content Include="Jars\AboutJars.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

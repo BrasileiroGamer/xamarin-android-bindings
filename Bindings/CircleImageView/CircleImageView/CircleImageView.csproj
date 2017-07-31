@@ -10,7 +10,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CircleImageView</RootNamespace>
-    <AssemblyName>Loop.Android.Bindings.CircleImageView</AssemblyName>
+    <AssemblyName>LoopDroid.Bindings.CircleImageView</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
@@ -49,8 +49,10 @@
   <ItemGroup>
     <LibraryProjectZip Include="Jars\circleimageview-2.1.0.aar" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Additions\" />
+    <Content Include="Additions\AboutAdditions.txt" />
+    <Content Include="Jars\AboutJars.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

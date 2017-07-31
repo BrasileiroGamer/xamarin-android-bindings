@@ -1,3 +1,4 @@
 ﻿<metadata>
-	<attr path="/api/package[@name='me.grantland.widget']" name="managedName">Loop.Android.Bindings</attr>
+	<!-- Set Namespace -->
+	<attr path="/api/package[@name='me.grantland.widget']" name="managedName">LoopDroid.Bindings</attr>
 </metadata>
