@@ -1,0 +1,4 @@
+﻿<metadata>
+	<!-- Set Namespace -->
+	<attr path="/api/package[@name='at.markushi.ui']" name="managedName">LoopDroid.Bindings</attr>
+</metadata>
