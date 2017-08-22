@@ -1,0 +1,4 @@
+﻿<metadata>
+	<!-- Set Namespace -->
+	<attr path="/api/package[@name='ir.sohreco.circularpulsingbutton']" name="managedName">LoopDroid.Bindings</attr>
+</metadata>
